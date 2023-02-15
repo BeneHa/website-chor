@@ -1,48 +1,54 @@
-<!-- Contact Start -->
-<section class="section home-contact">
+<section class="contact-form-wrap section" id="contact">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<span class="h5 text-color text-uppercase">
-					Contact me
-				</span>
-				<h3 class="mb-5 mt-2">Let’s Create <br>Something Big</h3>
-
-				<form action="{{site.contact_form_action}}" class="home-contact-form">
-					<div class="form-row">
-						<div class="col-lg-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="First Name">
+		<div class="row justify-content-center align-items-center bg-gray">
+			<div class="col-lg-10">
+				<div class="contact-content pl-lg-5 mb-5 mb-lg-0">
+					<h3 class="mb-4 font-weight-bold">Kontakt</h3>
+					<p>Wenn Du Fragen zum Chor hast oder einfach einmal bei einer Probe vorbeischauen willst, meld Dich einfach bei uns!</p>
+					<div class="row mt-5">
+						<div class="col-lg-4">
+							<div class="contact-info mt-3">
+								<i class="ti-location-pin text-color"></i>
+								<div class="info">
+									<h4>Hier proben wir</h4>
+									<p>O2 Turm<br>Georg-Brauchle-Ring 50<br>80992 München</p>
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Last Name">
+						<div class="col-lg-4">
+							<div class="contact-info mt-3">
+								<i class="ti-mobile text-color"></i>
+								<div class="info">
+									<h4>Telefon</h4>
+									<p>(003) 104-6706-231 <br>(799) 376-4681-232</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="contact-info mt-3">
+								<i class="ti-email text-color"></i>
+								<div class="info">
+									<h4>Schreib uns</h4>
+									<p>info@dizer.com <br>info@example.com</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="form-row">
-						<div class="col-lg-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Email Address">
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Phone Number">
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12">
-							<textarea name="msg" id="msg" cols="30" rows="4" class="form-control mb-4" placeholder="Message"></textarea>
-
-							<button type="submit" class="btn btn-primary">Get a quote</button>
-						</div>
-					</div>
-				</form>
+				</div>
 			</div>
 		</div>
+
+		<!-- Map Start -->
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="google-map position-relative my-5">
+					<div id="map" data-latitude="48.1769565" data-longitude="11.5323009" data-marker="{{'/assets/images/marker.png' | relative_url}}">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Map ENd -->
+
+		
 	</div>
 </section>
-<!-- Contact End -->

@@ -23,7 +23,7 @@ jobs:
         build_dir: '_site'
         build_only: 'true'
     - name: ls
-      run:  ~/work/
+      run:  ls ~/work/
     - name: chmod
       run: sudo chmod -R 777 ~/work/website_chor/jekyll/_site/_site/
     - uses: bacongobbler/azure-blob-storage-upload@main

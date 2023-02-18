@@ -1,24 +1,25 @@
 ######################### Hero Area ##############################
 hero_area:
   background_image : "/assets/images/bg/banner-2.png"
-  subtitle: "Willkommen beim Hobbychor xy."
-  title : "Wir sind ein <br>Hobbychor <br>in Moosach."
-  content : "Einmal die Woche treffen wir uns und singen klassische wie moderne Lieder."
+  title : "Willkommen bei den blue vocals."
+  content : "Wir sind ein gemischter Chor unterschiedlichen Alters. Derzeit sind wir 15 aktive Mitglieder im Sopran, Alt, Bass und Tenor. "
   image : "/assets/images/banner/banner-img-2.png"
 
 ########################### Service ##############################
 services:
-- title : "Singen aus Spaß"
+- title : "Wer kann mitmachen?"
   icon : "ti-face-smile"
-  content : "Bei uns geht es darum Spaß am gemeinsamen Singen zu haben, auch wenn mal nicht jeder Ton auf Anhieb sitzt."
+  content : "JEDER! Jeder der Lust und Spaß an Musik und Singen hat, ist gerne eingeladen. Wir freuen uns über jedes neue Mitglied. Daher haben wir auch kein Vorsingen oder andere Bewerbungsverfahren."
 
-- title : "Jede/r kann mitmachen"
-  icon : "ti-comments"
-  content : "Wir freuen uns immer über neue Mitsänger*innen in allen Stimmlagen."
-
-- title : "Gemeinsame Projekte"
+- title : "Wann proben wir?"
   icon : "ti-music-alt"
-  content : "Mehrmals im Jahr treten wir auf privaten oder kleineren öffentlichen Veranstaltungen auf, für die wir jeweils ein eigenes Programm einstudieren."
+  content : "Wir proben jeden Montag von 18 bis 20 Uhr."
+  
+- title : "Was singen wir?"
+  icon : "ti-comments"
+  content : "Das Reportoir ist vielseitig: Von Popsongs über Kirchenmusik und alte Klassiker bis hin zu Internationalen Hits, ist alles dabei. Das ganze immer ohne Instrumentale Begleitung."
+
+
 
 ## portfolio
 portfolio:

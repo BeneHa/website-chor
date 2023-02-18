@@ -39,4 +39,4 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - run: |
-        az cdn endpoint purge -g benehaus-blog-rg -n benehausblogendpoint --profile-name benehaus-blog-cdn --content-paths '/*'
+        az cdn endpoint purge -g website_chor -n websitechor --profile-name cdnprofile-chor --content-paths '/*'

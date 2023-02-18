@@ -1,27 +1,29 @@
 ---
-layout: default_2
-title: "Our Portfolios"
+layout: default
+title: "Bilder"
 ---
 
-{% include header.html %}
+{% assign banner = site.data.homepage_1.hero_area %}
+<section class="banner-2 position-relative bg-blue">
+	<img src="{{ banner.background_image | relative_url }}" alt="" class="overlay-shape">
+</section>
+
+
 <!-- POrtfolio  Start -->
 <section class="section portfolio-5">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-10 text-center">
 				<span class="h5 text-color text-uppercase">
-					our works
+					Auftritte und Chorwochenenden
 				</span>
-				<h3 class="mb-5 mt-2">Wide Grid Portfolio</h3>
+				<h3 class="mb-5 mt-2">Alle Bilder</h3>
 			</div>
 		</div>
 
     <div class="row align-items-center mb-5">
       	<div class="col-12 text-center">
 	        <div class="btn-group btn-group-toggle " data-toggle="buttons">
-	          <label class="btn border-0 active">
-	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
-	          </label>
 						{% assign categories = site.portfolios| map: 'categories' | join: ',' | split: ',' | uniq %}
 						{% for category in categories %}
 						<label class="btn border-0">

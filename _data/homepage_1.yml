@@ -3,7 +3,7 @@ hero_area:
   background_image : "/assets/images/bg/banner-2.png"
   title : "Willkommen bei den blue vocals."
   content : "Wir sind ein gemischter Chor unterschiedlichen Alters. Derzeit sind wir 15 aktive Mitglieder im Sopran, Alt, Bass und Tenor. "
-  image : "/assets/images/banner/banner-img-2.png"
+  image : "/assets/images/banner/gruppe_header.png"
 
 ########################### Service ##############################
 services:
@@ -14,7 +14,7 @@ services:
 - title : "Wann proben wir?"
   icon : "ti-music-alt"
   content : "Wir proben jeden Montag von 18 bis 20 Uhr."
-  
+
 - title : "Was singen wir?"
   icon : "ti-comments"
   content : "Das Reportoir ist vielseitig: Von Popsongs über Kirchenmusik und alte Klassiker bis hin zu Internationalen Hits, ist alles dabei. Das ganze immer ohne Instrumentale Begleitung."
@@ -23,5 +23,15 @@ services:
 
 ## portfolio
 portfolio:
-- title: xy
-  thumbnail: "/assets/images/portfolio/p-3.jpg"
+- title: Chorwochenende November 2022
+  thumbnail: "/assets/images/portfolio/item-1.jpg"
+- title: Chorwochenende November 2022
+  thumbnail: "/assets/images/portfolio/item-2.jpg"
+- title: Hochzeit Clarissa und David 2022
+  thumbnail: "/assets/images/portfolio/item-3.jpg"
+- title: Chorwochenende April 2022
+  thumbnail: "/assets/images/portfolio/item-4.jpg"
+- title: Chorwochenende April 2022
+  thumbnail: "/assets/images/portfolio/item-5.jpg"
+- title: Chorwochenende Oktober 2021
+  thumbnail: "/assets/images/portfolio/item-6.jpg"

@@ -23,13 +23,13 @@ jobs:
         build_dir: '_site'
         build_only: 'true'
     - name: ls
-      run:  ls ~/work/website-chor/website-chor/
+      run:  ls ~/work/website-chor/website-chor/_site/_site/
     - name: chmod
       run: sudo chmod -R 777 ~/work/website-chor/website-chor/_site/_site/
     - uses: bacongobbler/azure-blob-storage-upload@main
       with:
         cli_version: 2.34.1
-        source_dir: 'website-chor/_site/_site/'
+        source_dir: '~/work/website-chor/website-chor/_site/_site/'
         container_name: '$web'
         sas_token: ${{ secrets.SAS_TOKEN }}
         account_name: ${{ secrets.STORAGE_ACCOUNT_NAME }}

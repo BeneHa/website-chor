@@ -18,7 +18,7 @@ jobs:
           ${{ runner.os }}-gems-
     - uses: helaili/jekyll-action@v2
       with:
-        jekyll_src: '~/work/website-chor'
+        jekyll_src: 'website-chor'
         target_path: '_site'
         build_dir: '_site'
         build_only: 'true'
